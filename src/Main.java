@@ -1,0 +1,83 @@
+/**
+ * Created by 17623 on 5/8/15.
+ */
+public class Main {
+    public static void main(String[] args) {
+        StatickQueue<String> yayyy = new StatickQueue<String>();
+        System.out.println(yayyy.size());
+        System.out.println(yayyy.dequeue());
+        yayyy.enqueue("Hi");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi1");
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi2");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi3");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi4");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi5");
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.dequeue());
+        yayyy.enqueue("Hi6");
+        yayyy.enqueue("Hi7");
+        yayyy.enqueue("Hi8");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi9");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi10!!!");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi11");
+        yayyy.enqueue("Hi12");
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi13");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi14");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi15");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi16");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi17");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi18");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi19");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi20");
+        System.out.println(yayyy.size());
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi20!");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi20!!");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi20!!!");
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        System.out.println(yayyy.dequeue());
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi20!!!!");
+        System.out.println(yayyy.toString());
+        yayyy.enqueue("Hi20!!!!!");
+        while(yayyy.getNext()!=null) {
+            System.out.println(yayyy.dequeue());
+        }
+    }
+}
